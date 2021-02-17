@@ -41,10 +41,10 @@ int main()
 // 초기화
 void Initialize()
 {
-    srand(time(NULL));
+    srand(time(NULL)); // 난수 제작 함수
 
     // 세자리 난수 생성
-    nNumbers[0] = rand() % 10;
+    nNumbers[0] = rand() % 10; // 0~ 9사이의 난수가 나온다
     nNumbers[1] = rand() % 10;
     nNumbers[2] = rand() % 10;
 
