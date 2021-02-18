@@ -1,6 +1,6 @@
 #include <iostream>
-#include <ctime>     // time() 함수를 포함하는 헤더파일
-#include <termios.h> // getche() 함수를 포함하는 헤더파일
+#include <ctime> // time() 함수를 포함하는 헤더파일
+#include <termios.h>
 using namespace std;
 
 int getch(void);
@@ -84,7 +84,6 @@ void CountBall(int nInputs[3])
     }
 }
 
-// #includ <termio.h> / getche() 함수를 대신 사용하기 위해서 만든 함수
 int getch(void)
 {
     int ch;
